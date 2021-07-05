@@ -1,89 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-.lines {
-    padding-Left: 10px;
-    font-size: 20px;
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
+/* body {
+  min-height: 100vh;
+  display: flex;
+} */
 
-#other {
-    display: none;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  margin-left: auto;
+  padding: 2em;
 }
-
-#text1 {
-    color: royalblue;
-    font-family: arial;
-    padding-Left: 14px;
-    font-size: 16px;
-}
-
-#text2 {
-    font-family: arial;
-    padding-Left: 14px;
-    font-size: 16px;
-}
-
-.avatar {
-    float: right;
-    border-radius: 100px;
-}
-
 a {
-    line-height: 2;
-    padding: 20px;
-    color:royalblue;
-    font-size:13px;
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.87);
 }
-.btn{
-    margin-top: 30px;
-    padding: 10px;
-    
-}
-.btn{
-    background-color: #f5f5f5;
-    border: none;
-    color: gray;
-    font-size: 15PX;
-    border-radius:4px;
-    outline: none;
-    padding: 10px 20px;
-    margin: 30px;
-}
-.btn:hover{
-    border: 1px solid #c8c8c8;
-    padding: 9px 19px;
-    color: #808080;
-}
-.btn:focus{
-    padding: 9px 19px;
-    border: 1px solid #0c1016;
+a:hover {
+  text-decoration: underline;
+  font-style: bold;
 }
 
-.bottom {
-    font-family: arial;
-    text-align: center;
+nav img {
+  height: 20px;
 }
-
-.imgs {
-    text-align: center;
+nav button {
+  background-color: #4284f4;
+  color: #fff;
+  font-weight: bold;
+  padding: 7px 12px;
+  border: 1px solid #4284f4;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  outline: none;
+  cursor: pointer;
 }
-
+nav button:hover {
+  opacity: 0.9;
+}
+main {
+  width: 50%;
+  height: 50%;
+  margin: 7em auto;
+  text-align: center;
+}
+main img {
+  margin: 0px auto;
+  padding-bottom: -45px;
+  height: 200px;
+  background-color: black;
+  /* width: 50px; */
+  /* margin-top: 1000px; */
+}
 input {
-    margin: 4px;
-    border-radius: 100px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #999;
-    width: 60%;
+  width: 85%;
+  padding: 13px;
+  padding-left: 40px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 1px solid gray;
+  outline: none;
+  letter-spacing: 1px;
+  transition: 100ms;
+  outline: none;
 }
-
-input:focus {
-    outline: none;
+input:hover {
+  border: 1px solid #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 0 0 2px rgba(0, 0, 0, 0.05),
+    0 0 3px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 4px rgba(0, 0, 0, 0.05), 0 0 5px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05);
 }
-
-.material-icons {
-    padding: 8px;
-    color: white;
-    font-size:30px;
-    border-radius: 100px;
-    background: royalblue;
+.btn {
+  margin-top: 28px;
 }
-
+.btn button {
+  font-size: 14px;
+  padding: 9px 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #666;
+  transition: 100ms;
+}
+.btn button:hover {
+  border: 1px solid #aaaa;
+}
+.google-lang {
+  margin: 1em;
+  justify-content: space-around;
+  margin-top: 30px;
+  text-align: center;
+}
+.google-lang a {
+  color: #1a0dab;
+  margin-right: 1em;
+}
+footer {
+  background-color: #f2f2f2;
+  font-weight: 400;
+}
+.footer-top {
+  padding: 1em;
+  line-height: 15px;
+  padding-left: 20px;
+}
+.footer-bottom {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+}
+.link-1 a {
+  margin-right: 1em;
+}
+.link-2 a {
+  margin-right: 1em;
+}
